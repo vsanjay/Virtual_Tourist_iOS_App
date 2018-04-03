@@ -146,6 +146,8 @@ class MapViewController: UIViewController,MKMapViewDelegate {
                 }
                 
             }
+        
+        myMapView.deselectAnnotation(view.annotation, animated: true)
 
     }
     
